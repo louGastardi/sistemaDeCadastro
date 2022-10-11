@@ -19,7 +19,10 @@ verificar alteracoes locais:
 "pasta do repositorio" > git status
 
 add commit para modificacoes:
-"pasta do repositorio" > git commit index.html -m "linkando o app.js com o html"
+"pasta do repositorio" > git commit index.html -m "Mensagem de commit"
+
+modificações em mais de um arquivo, posso colocar só o ponto: 
+"pasta do repositorio" >  git commit . -m "Mensagem de commit"
 
 enviar arquivos para o repositorio online:
 "pasta do repositorio" > git push origin main
