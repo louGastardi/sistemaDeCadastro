@@ -27,3 +27,5 @@ modificações em mais de um arquivo, posso colocar só o ponto:
 enviar arquivos para o repositorio online:
 "pasta do repositorio" > git push origin main
 
+Voltar para versao anterior:
+"pasta do repositorio" > git restore --source CODIGO DA ATUALIZACAO .(para voltar a versao de todos os arquivos) / index.html  (para voltar a versao de um só arquivo)
